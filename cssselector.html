@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="csselector.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+          <th>Selector</th>
+          <th>Example</th>
+          <th>Example description</th>
+        </tr>
+        <tr>
+          <td>#id</td>
+          <td>#firstname</td>
+          <td>Selects the element with id="firstname"</td>
+        </tr>
+        <tr>
+          <td>.class</td>
+          <td>.intro</td>
+          <td>Selects all elements with class="intro"</td>
+        </tr>
+        <tr>
+          <td>element.class</td>
+          <td>p.intro</td>
+          <td>Selects only p elements with class="intro"</td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>*</td>
+          <td>Selects all elements</td>
+        </tr>
+        <tr>
+          <td>element</td>
+          <td>p</td>
+          <td>Selects all p elements</td>
+        </tr>
+        <tr>
+          <td>element,element,..</td>
+          <td>	div, p</td>
+          <td>Selects all div elements and all p elements</td>
+        </tr>
+      </table>
+      
+    <h4>The CSS Universal Selector:=>
+        The universal selector (*) selects all HTML elements on the page.</h4>
+    <h1>Css element selector:=>The element selector selects HTML elements based on the element name.</h1>
+    <p id="idselector">The CSS id Selector:=>
+    The id selector uses the id attribute of an HTML element to select a specific element.The id of an element is
+        unique within a page, so the id selector is used to select one unique element!To select an element with a
+        specific id, write a hash (#) character, followed by the id of the element.</p>
+<p class="classselector">Class selector:=>The class selector selects HTML elements with a specific class attribute.To select elements with a specific class, write a period (.) character, followed by the class name.</p>
+<div class="cls">you can also select html element with this class name.</div>
+<h3>The CSS Grouping Selector</h3>
+<p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+<h2>Anchor Pseudo-classes</h2>
+<p><b><a href="https://www.w3schools.com/" target="_blank">This is a link</a></b></p>
+<div>Hover over this div element to show the p element
+  <p>Tada! Here I am!</p>
+</div>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<div>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+  <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+</div>
+
+<p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+
+<p class="frt">Heloooo!</p>
+<a href="http://www.disney.com" target="_top">disney.com</a>
+
+<h2>CSS [attribute|="value"] Selector</h2>
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontent">Are you learning CSS?
+
+  <h2>CSS [attribute^="value"] Selector</h2>
+  <h1 class="top-header">Welcome</h1>
+  <p class="top-text">Hello world!</p>
+  <p class="topcontent">Are you learning CSS?</p>
+  <h2>CSS [attribute*="value"] Selector</h2>
+  <h2>CSS [attribute$="value"] Selector</h2>
+<div class="first_test">The first div element.</div>
+<div class="second">The second div element.</div>
+<p class="mytest">This is some text in a paragraph.</p>
+</body>
+</html>

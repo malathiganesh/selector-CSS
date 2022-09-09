@@ -1,0 +1,67 @@
+*{
+    background-color:aliceblue;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+h1{
+    color: red;
+}
+#idselector{
+    color: blue;
+}
+.classselector{
+    color: brown;
+}
+div.cls{
+    color: blueviolet;
+}
+h3, p{
+    color: yellowgreen;
+}
+a:link {
+    color: red;
+  }
+  a:visited {
+    color: green;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  a:active {
+    color: blue;
+  }
+  div:hover p {
+    display: block;
+    color: yellow;
+  }
+  p i:first-child {
+    color: blue;
+  } 
+  p:first-child i {
+    color: blue;
+  } 
+  q:lang(no) {
+    quotes: "~" "~";
+  }
+  p.frt::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  p.frt::first-line{
+    color:rgb(255, 0, 140) ;
+  }
+  a[target=_top] {
+    background-color: yellow;
+  }
+  [class|=top] {
+    background: yellow;
+  }
+  /* [class^="top"] {
+    background: yellow;
+  } */
+  [class$="test"] {
+    background: yellow;}
+    [class*="te"] {
+        background: yellow;
+      }
